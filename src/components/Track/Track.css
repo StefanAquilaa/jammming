@@ -1,0 +1,31 @@
+
+/* Basic styling*/
+li{
+    border-bottom: 0.8px solid whitesmoke;
+}
+
+/*Track Title Styling*/
+.track-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* addSong Button Styling */
+.addSong{
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Track Description Styling*/
+
+.track-description{
+    margin-bottom: .5rem;
+}
+
+.track-description p{
+    opacity: 90%;
+}

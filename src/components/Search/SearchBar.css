@@ -1,0 +1,27 @@
+/* Search Form Styling */
+
+/* Search Input Field Styling */
+.search-input{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    padding: 1rem 8rem;
+    outline: none;
+    color: slategrey;    
+}
+
+/* Search Button Styling */
+.search-button{
+    background-color: #b1399a;
+    color: whitesmoke;
+    border: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5rem 1.25rem;
+    display: block;
+    margin: 16px auto auto;
+}

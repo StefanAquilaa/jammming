@@ -1,0 +1,54 @@
+/* Styling Playlist */
+
+/* Basic styling*/
+li{
+    border-bottom: 0.8px solid whitesmoke;
+    
+}
+
+
+.custom-playlist{
+    list-style: none;
+}
+
+/* Playlist Title Styling*/
+.playlistTitle{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    color: rgba(245, 245, 245, 0.90);
+    font-size: 1.825rem;
+    margin-top: 10px;
+    outline: none;
+}
+
+.playlistTitle:active{
+    border: none;
+}
+
+/* SaveToSpotify Button Styling */
+
+.saveToSpotify{
+    background-color: #b1399a;
+    color: whitesmoke;
+    border: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.325rem 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.removeSong{
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}

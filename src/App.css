@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  color: whitesmoke;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Styling App Component*/
+.App{
+  position: relative;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 300px;
+  background-image: url(./views/cyberpunk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.App-header{
+  position:relative;
+  background-color: rgba(26,24,46,0.955);
+  width: 100%;
+  top: 10px;
+  padding: 16px 16px 42px 16px;
+}
+
+.main-title-container{
+  position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+.main-title{
+  font-size: 3rem;
+}
+
+.login-button-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*Styling display section*/
+.display-section{
+  width: 100%;
+  margin-top: 1.25rem;
+  padding: 3rem 0;
+  display: flex;
+  justify-content:space-around;
+}
+
+.left-display-card{
+  width: 600px;
+  height: 700px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(26,24,46,0.8);
+  border: 3px solid #017cd1;
+}
+
+.right-display-card{
+  width: 500px;
+  height: 700px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(26,24,46,0.8);
+  border: 3px solid #017cd1;
+}
+
+/* Styling Search Section*/
+.search-section{
+  position: relative;
+  margin-top: 2.225rem;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-button, .logout-button{
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
 }
