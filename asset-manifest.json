@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jammming/static/css/main.68bcc12d.css",
+    "main.js": "/jammming/static/js/main.db83944f.js",
+    "static/js/787.07ba7306.chunk.js": "/jammming/static/js/787.07ba7306.chunk.js",
+    "static/media/cyberpunk.jpg": "/jammming/static/media/cyberpunk.01b5f02bcbdd6d87a727.jpg",
+    "index.html": "/jammming/index.html",
+    "main.68bcc12d.css.map": "/jammming/static/css/main.68bcc12d.css.map",
+    "main.db83944f.js.map": "/jammming/static/js/main.db83944f.js.map",
+    "787.07ba7306.chunk.js.map": "/jammming/static/js/787.07ba7306.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bcc12d.css",
+    "static/js/main.db83944f.js"
+  ]
+}
